@@ -1,0 +1,111 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;    
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size : 120%;
+    background: white;
+}
+
+.header{
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #204d8e;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 20px;
+}
+
+form, .content {
+
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    
+    /* background: #204d8e;
+    border-radius: 0px 0px 10px 10px ; */
+    /* border-radius: 1rem; */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: #f7f2de;
+
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input{
+    height: 30px;
+    width: 95%;
+    padding:  5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background:  #5f9ea5;
+    border: none;
+    border-radius:  5px;
+}
+
+.error{
+    width: 350px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid#204d8e;
+    color:  pink;
+    background: #204d8e;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success{
+    color: #3c763d;
+    background: #dff9db;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+/*//////////////////////////////////////////////////////////*/
+/* .thinking {
+    background: white url("img/checking.gif") no-repeat;
+    background-position: 150px 1px;
+    }
+.approved {
+    background: white url("img/true.gif") no-repeat;
+    background-position: 150px 1px;
+    }
+.denied {
+    background: #FF8282 url("img/false.gif") no-repeat;
+    background-position: 150px 1px;
+    }
+.form_success span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1rem;
+    color: green;
+}
+
+.form_success input {
+    border: 1px solid green;
+} */
